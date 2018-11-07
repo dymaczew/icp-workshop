@@ -74,7 +74,7 @@ In this section, you configure IBM Cloud Private to use the OpenLDAP server that
 
    - URL: `ldap://<ip-of-ldap-service>:389`  
 
-     **Note:** If not instructed otherwise use 10.10.99.30 as <ip-of-ldap-service>
+     **Note:** If not instructed otherwise use 10.10.99.30 as `<ip-of-ldap-service>`
 
    #### LDAP authentication
 
@@ -122,7 +122,7 @@ In the section, you work through the process of creating teams in ICP, and assig
 
 5. Grant the developers team ***Editor*** access.
 
-  ![Developers](images/ldap/developers.jpg)
+  ![Developers](images/openldap/developers.jpg)
 
 6. Click **Create**.
 
@@ -134,7 +134,7 @@ In the section, you work through the process of creating teams in ICP, and assig
 
 10. From the list of namespaces, select *ldap-lab*.
 
-  ![Resources](images/ldap/resources.jpg)
+  ![Resources](images/openldap/resources.jpg)
 
 11. Click **Add**.
 
@@ -147,7 +147,7 @@ In the section, you work through the process of creating teams in ICP, and assig
 
   When you are finished, you have three **Teams**.
 
-  ![Teams](images/ldap/teams.jpg)  
+  ![Teams](images/openldap/teams.jpg)  
 
 #### Validate the Users
 In this section, you explore the differences between the groups that you created. Follow the steps below to explore the differences between the roles assigned to the different groups.
