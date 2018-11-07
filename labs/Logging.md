@@ -58,7 +58,7 @@ In this section, you use Kibana to review infrastructure and application logs an
 #### Access Kibana
 Kibana was installed in the **kube-system** namespace during IBM Cloud Private installation and integrated into the ICP Admin Console.
 
-1. If you are not already logged in to the ICP Admin Console from a previous exercise, open a browser and navigate to `https://10.0.0.2:8443`. Log in by using `username: admin` and `password: admin`.
+1. If you are not already logged in to the ICP Admin Console from a previous exercise, open a browser and navigate to `https://<icp_master_ip>:8443`. Log in by using `username: admin` and `password: admin`.
 
 2. Click **Menu**, and then select **Platform > Logging** to access Kibana.
 

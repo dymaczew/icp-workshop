@@ -14,7 +14,7 @@ In this lab exercise you will deploy a sample NodeJS Helm Chart.
 ### Create a new Namespace <a name="namespace"></a>
 In this section you will create a new namespace to deploy the Helm Charts in to.
 
-1. If you aren't already logged in to the ICP Admin Console from a previous exercise, open a browser and navigate to `https://10.0.0.2:8443` and log in using `username: admin` and `password: admin`
+1. If you aren't already logged in to the ICP Admin Console from a previous exercise, open a browser and navigate to `https://<icp_master_ip>:8443` and log in using `username: admin` and `password: admin`
 
 2. Click **Menu** and then select **Manage > Namespaces** to navigate to the Namespaces page.
 
@@ -96,7 +96,7 @@ In this section, you deploy, test, and then remove the NodeJS Sample Helm Chart 
   ```
   cd /root
 
-  bx pr login -a https://<icp_master_ip>:8443 --skip-ssl-validation
+  cloudctl login -a https://<icp_master_ip>:8443 --skip-ssl-validation
   ```
 
 4. Enter `username: admin` and `password: admin` when prompted, and select the `mycluster Account`.
