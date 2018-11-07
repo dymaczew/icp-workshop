@@ -140,10 +140,10 @@ In the section, you work through the process of creating teams in ICP, and assig
 
   Repeat the process to create two more teams with the values below.
 
-  | Team Name  | LDAP Group | Role     | Namespace   |
-  | ---------- | ---------- | -------- | ----------  |
-  | operations | group2     | operator | <namespace> |
-  | support    | group3     | viewer   | <namespace  |
+  | Team Name  | LDAP Group | Role     | Namespace     |
+  | ---------- | ---------- | -------- | ----------    |
+  | operations | group2     | operator | `<namespace>` |
+  | support    | group3     | viewer   | `<namespace>` |
 
   When you are finished, you have three **Teams**.
 
