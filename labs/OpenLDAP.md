@@ -60,7 +60,7 @@ In this section, you configure IBM Cloud Private to use the OpenLDAP server that
 #### Create the LDAP Connection
 1. If you are not already logged in to the ICP Admin Console from a previous exercise, open a browser and navigate to `https://<ICP_management_ingress>:8443`. Log in by using `username: admin` and `password: admin`.
 
-2. Click **Menu**, and then select **Manage > Authentication**.
+2. Click **Menu**, and then select **Manage > Identity & Acces > Authentication**.
 
 3. When the **No LDAP connection found** message displays, click **Create LDAP Connection**.
 
